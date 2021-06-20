@@ -64,7 +64,7 @@ class ImageAndIcons extends StatelessWidget {
                 image: DecorationImage(
                   alignment: Alignment.centerLeft,
                   fit: BoxFit.cover,
-                  image: AssetImage("assets/images/img.png"),
+                  image: AssetImage("assets/images/Lilac_image.jpg"),
                 ),
               ),
             ),

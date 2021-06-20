@@ -13,37 +13,37 @@ class UploadedPhotos extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             UPloadPhotosCard(
-              image: "assets/images/image_1.png",
-              points: 30,
+              image: "assets/images/Pic1_points.jpg",
+              points: 50,
               latitude: 40.6,
               longitude: 56.3,
             ),
             UPloadPhotosCard(
-              image: "assets/images/image_2.png",
-              points: 30,
-              latitude: 40.6,
-              longitude: 56.3,
+              image: "assets/images/Pic2_points.jpg",
+              points: 50,
+              latitude: 44.8,
+              longitude: 59.1,
             ),
           ],
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        // Row(
+        //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
-          children: <Widget>[
-            UPloadPhotosCard(
-              image: "assets/images/image_1.png",
-              points: 30,
-              latitude: 40.6,
-              longitude: 56.3,
-            ),
-            UPloadPhotosCard(
-              image: "assets/images/image_2.png",
-              points: 30,
-              latitude: 40.6,
-              longitude: 56.3,
-            ),
-          ],
-        ),
+        //   children: <Widget>[
+        //     UPloadPhotosCard(
+        //       image: "assets/images/image_1.png",
+        //       points: 30,
+        //       latitude: 40.6,
+        //       longitude: 56.3,
+        //     ),
+        //     UPloadPhotosCard(
+        //       image: "assets/images/image_2.png",
+        //       points: 30,
+        //       latitude: 40.6,
+        //       longitude: 56.3,
+        //     ),
+        //   ],
+        // ),
       ],
     );
   }

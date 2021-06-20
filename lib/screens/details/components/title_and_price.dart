@@ -60,7 +60,7 @@ class TitleAndPrice extends StatelessWidget {
            style: TextStyle(
              fontWeight: FontWeight.bold,
              color: kTextColor,
-             fontSize: 50,
+             fontSize: 38,
              height: 0.7,
            ),
          ),
